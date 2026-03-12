@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> <!-- Configuração de meta tags para responsividade -->
+    <meta charset="UTF-8" /> <!-- Configuração de meta tags para responsividade e codificação de caracteres -->
     <title>Para o meu amor!</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" /> <!-- Preconexão para otimizar o carregamento da fonte -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
+    <link 
       href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap"
-      rel="stylesheet" />
-    <link rel="stylesheet" href="style.css" />
+      rel="stylesheet" /> <!-- Fonte cursiva para dar um toque mais romântico -->
+    <link rel="stylesheet" href="style.css" /> <!-- Link para o arquivo CSS externo -->
   </head>
   <body>
-    
+      <!-- Estrutura do envelope e da carta -->
     <div class="envlope-wrapper">
       <div id="envelope" class="close">
         <div class="front flap"></div>
@@ -23,18 +24,19 @@
           <div class="words line4">é a que tenho você do meu lado, Te amo! 💖.</div>
     
         </div>
-        <div class="hearts">
+        <div class="hearts"> <!-- Corações animados para dar um toque mais romântico -->
           <div class="heart a1"></div>
           <div class="heart a2"></div>
           <div class="heart a3"></div>
+          <div class="heart a4"></div>
         </div>
       </div>
     </div>
-    <div class="reset">
-      <button id="open">Open</button>
-      <button id="reset">Close</button>
+    <div class="reset"> <!-- Botões para abrir e fechar a carta -->
+      <button id="open">ABRIR</button>
+      <button id="reset">FECHAR</button>
     </div>
-
+    <!-- Link para o arquivo JavaScript externo e jQuery para manipulação de eventos -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="main.js"></script>
   </body>
